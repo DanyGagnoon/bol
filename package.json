@@ -1,0 +1,44 @@
+{
+  "name": "bol-ide",
+  "version": "0.3.1",
+  "description": "Official auto complete for Bot Of Legends",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "main": "lib/bol-ide.js",
+  "providedServices": {
+    "autocomplete-lua.options-provider": {
+      "versions": {
+        "1.0.0": "getOptionProvider"
+      }
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "standard": "^8.3.0"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "__LOG__"
+    ]
+  },
+  "package-deps": [
+    "autocomplete-lua",
+    "language-lua"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.3.1",
+    "jszip": "^3.1.3",
+    "lodash.uniq": "^4.5.0"
+  }
+}
