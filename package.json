@@ -1,13 +1,13 @@
 {
   "name": "bol-ide",
-  "version": "0.3.1",
+  "version": "0.0.2",
   "description": "Official auto complete for Bot Of Legends",
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/DanyGagnoon/bol"
   },
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/DanyGagnoon/bol/issues"
   },
   "main": "lib/bol-ide.js",
   "providedServices": {
